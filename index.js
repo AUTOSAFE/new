@@ -72,8 +72,8 @@ Features :
                 const crown = data.User.Crowns;
                 
                 console.log(`\r
-Sabar Kontol delay!! 
-${chalk.bgRed('BY Zexxy')}
+Sabar yok rasis!! 
+${chalk.bgRed('BY Lana')}
 
 ♨  [${moment().format('HH:mm:ss')}]  -
 -  ${chalk.bgMagenta(`Negara  : ${country}`)}
