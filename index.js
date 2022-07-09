@@ -34,7 +34,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 𝘽𝙔 : ꪶꪖꪀꪖ
                                                     
 
-Credit : ${chalk.red('@Zexxy')} - ${chalk.blue('MODDED/')}
+Credit : ${chalk.red('@Zexxy')} - ${chalk.blue('MODDED')}
 
 Features :
 
@@ -72,16 +72,16 @@ Features :
                 const crown = data.User.Crowns;
                 
                 console.log(`\r
-Sabar Kontol delay!! 
-${chalk.bgRed('BY Zexxy')}
+Sabar orang ngemis!! 
+${chalk.bgRed('BY LANA')}
 
 ♨  [${moment().format('HH:mm:ss')}]  -
-→  ${chalk.bgMagenta(`Negara  : ${country}`)}
-→  ${chalk.bgYellow(`Nama  : ${username}`)}
-→  ${chalk.bgCyan(`Exp : ${exp}`)}  
-→  ${chalk.bgBlue(`Tropy  : ${trophy}`)}  
-→  ${chalk.bgRed(`Crown : ${crown}`)}
-→  ${chalk.bgGreen(`Status : ✔ Success`)}`);
++  ${chalk.bgMagenta(`Negara  : ${country}`)}
+-  ${chalk.bgYellow(`Nama  : ${username}`)}
++  ${chalk.bgCyan(`Exp : ${exp}`)}  
++  ${chalk.bgBlue(`Tropy  : ${trophy}`)}  
++  ${chalk.bgRed(`Crown : ${crown}`)}
+✓  ${chalk.bgGreen(`Status : ✔ Success`)}`);
         await delay(time);
 
             } else if (result == 'BANNED') {
