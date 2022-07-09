@@ -72,16 +72,16 @@ Features :
                 const crown = data.User.Crowns;
                 
                 console.log(`\r
-Sabar yok rasis!! 
-${chalk.bgRed('BY Lana')}
+Sabar Lagi Ban!! 
+${chalk.bgRed('BY LANA')}
 
 ♨  [${moment().format('HH:mm:ss')}]  -
--  ${chalk.bgMagenta(`Negara  : ${country}`)}
--  ${chalk.bgYellow(`Nama  : ${username}`)}
--  ${chalk.bgCyan(`Exp : ${exp}`)}  
--  ${chalk.bgBlue(`Tropy  : ${trophy}`)}  
--  ${chalk.bgRed(`Crown : ${crown}`)}
--  ${chalk.bgGreen(`Status : ✔ Success`)}`);
+→  ${chalk.bgMagenta(`Negara  : ${country}`)}
+→  ${chalk.bgYellow(`Nama  : ${username}`)}
+→  ${chalk.bgCyan(`Exp : ${exp}`)}  
+→  ${chalk.bgBlue(`Tropy  : ${trophy}`)}  
+→  ${chalk.bgRed(`Crown : ${crown}`)}
+→  ${chalk.bgGreen(`Status : ✔ Success`)}`);
         await delay(time);
 
             } else if (result == 'BANNED') {
